@@ -30,4 +30,4 @@ def callback():
     return jsonify(reque.json())
 
 
-app.run(debug=True, host='127.0.0.1', port=3000)
+app.run(host='127.0.0.1', port=3000)
